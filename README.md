@@ -1,5 +1,9 @@
 # Azure Train Data Project with iRail.be API
 
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+
+![Microsoft Azure](https://img.shields.io/badge/Microsoft_Azure-0089D6?logo=microsoftazure&logoColor=white)
+![Azure SQL](https://img.shields.io/badge/Azure_SQL_Database-CC2927?logo=microsoftsqlserver&logoColor=white)
 
 ## 1. Project Overview
 This project builds a cloud-native data pipeline and analytics foundation for monitoring live train operations in Belgium using the iRail public transport API.
