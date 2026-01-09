@@ -6,7 +6,7 @@
 ![Azure SQL](https://img.shields.io/badge/Azure_SQL_Database-CC2927?logo=microsoftsqlserver&logoColor=white)
 
 ## 1. Project Overview
-This project builds a cloud-native data pipeline and analytics foundation for monitoring live train operations in Belgium using the iRail public transport API.
+This project builds a cloud-native data pipeline foundation for monitoring live train operations in Belgium using the iRail public transport API.
 The system ingests real-time railway data (departures, delays, cancellations), stores it in an Azure SQL Database, and prepares it for downstream analytics and visualization to answer the following practical questions:
 
 - Which stations experience the most delays?
