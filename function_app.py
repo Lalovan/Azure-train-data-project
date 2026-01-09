@@ -32,7 +32,7 @@ def DelayMonitorFunction(req: func.HttpRequest) -> func.HttpResponse:
 
         departures = data.get("departures", {}).get("departure", [])
 
-        # Insert data
+        # Insert data into the db table in Azure
         for dep in departures:
             cursor.execute("""
                 INSERT INTO DelayTrains
@@ -57,3 +57,4 @@ def DelayMonitorFunction(req: func.HttpRequest) -> func.HttpResponse:
         )
     except Exception as e:
         return func.HttpResponse(f"Error: {str(e)}", status_code=500)
+
